@@ -1,9 +1,5 @@
 package com.uce.edu.lista;
 
-import java.util.List;
-
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 public class Principal {
 
 	
@@ -64,6 +60,7 @@ public class Principal {
 		System.out.println("take");
 		System.out.println(take);
 		
+		
 		var takeWhile=miLista2.takeWhile(t->t%2==0);
 		System.out.println("takeWhile");
 		System.out.println(takeWhile);
@@ -73,5 +70,14 @@ public class Principal {
 		System.out.println(concatenar);
 		
 		
+		var max=Lista.max(miLista);
+		System.out.println("max");
+		System.out.println(max);
+		
+
+		
+		var suma=Lista.suma(miLista);
+		System.out.println("suma");
+		System.out.println(suma);
 	}
 }
